@@ -28,7 +28,7 @@ spec:
       - env:
         - name: TEST_ENV_VAR
           value: Test go app
-        image: go-image:latest
+        image: quay.io/hacdev/bphv0iol-tenant/test-app-170173523/go-170173523@sha256:f9103105016a5083536f092eb2a08483d436ec57ef024d335bae327cdee4213a
         name: my-go
         ports:
         - containerPort: 8081
